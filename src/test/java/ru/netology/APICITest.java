@@ -20,7 +20,7 @@ public class APICITest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("FAILED TEST"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
